@@ -24,6 +24,15 @@
   <meta property="og:image" content="#">
 
 
+  <script type="text/javascript">
+    window.dh = window.dh || {};
+    window.dh.page = window.dh.page || {};
+    window.dh.page.model = window.dh.page.model || {};
+
+    window.dh.page.model['unreviewed'] = 0;
+    window.dh.page.model['partner_brand'] = "deephire";
+  </script>
+
 
   <!-- page css links -->
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
@@ -32,15 +41,13 @@
   <link rel="stylesheet" href="css/_header.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/_header_light.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/landing-styles.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/marketing_shared_styles.css" type="text/css"
-    media="all">
-  <link rel="stylesheet" href="css/how_it_works.css" type="text/css"
-    media="all">
+  <link rel="stylesheet" href="css/marketing_shared_styles.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/how_it_works.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/_sub-nav.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/notifier.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/help-chat.css" type="text/css" media="all">
   <!-- page css inlines -->
-  
+
   <style>
     .dh-icon-base {
       transform: translate(0, 0);
@@ -80,7 +87,7 @@
     .section.features_section .feature .feature_title {
       font-weight: 400;
       font-size: 20px;
-      color: #71af05
+      color: #227BF6
     }
 
     .section.features_section .feature .feature_text {
@@ -112,45 +119,69 @@
 
 
 
-
   <div class="main_site_header">
-    <header id="masthead" class="site-header" role="banner">
-      <div class="nav-container">
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-          <div class="container nav-bar">
-            <div class="flex-row">
-              <div class="module left site-title-container">
-                <a href="http://35.226.33.125/" class="custom-logo-link" rel="home" itemprop="url"><img width="133" height="55" src="https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?fit=133%2C55" class="custom-logo logo" alt="DeepHire" itemprop="logo" srcset="https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?w=1942 1942w, https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?resize=300%2C124 300w, https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?resize=768%2C317 768w, https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?resize=1024%2C422 1024w" sizes="(max-width: 133px) 100vw, 133px" data-attachment-id="188" data-permalink="http://35.226.33.125/deephitewhite/" data-orig-file="https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?fit=1942%2C801" data-orig-size="1942,801" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="deephitewhite" data-image-description="" data-medium-file="https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?fit=300%2C124" data-large-file="https://i2.wp.com/35.226.33.125/wp-content/uploads/2017/12/deephitewhite.png?fit=1024%2C422" /></a>						</div>
-              <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-                <i class="fa fa-bars"></i>
-              </div>
-              <div class="module-group right">
-                <div class="module left">
-                  <div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-71 active"><a title="Home" href="http://35.226.33.125">Home</a></li>
-  <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a title="Blog" href="http://35.226.33.125/index.php/blog/">Blog</a></li>
-  <li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a title="Sign Up" href="http://35.226.33.125/index.php/front-page/signup/">Sign Up</a></li>
-  </ul></div>							</div>
-                <!--end of menu module-->
-                <div class="module widget-handle search-widget-handle left hidden-xs hidden-sm">
-                  <div class="search">
-                    <i class="fa fa-search"></i>
-                    <span class="title">Site Search</span>
-                  </div>
-                  <div class="function">
-                  <form role="search" method="get" id="searchform" class="search-form" action="http://35.226.33.125/" >
-      <label class="screen-reader-text" for="s">Search for:</label>
-      <input type="text" placeholder="Type Here" type="text" value="" name="s" id="s" />
-      <button type="submit" class="searchsubmit"><i class="fa fa-search" aria-hidden="true"></i><span class="screen-reader-text">Search</span></button>
-      </form>								</div>
-                </div>
-              </div>
-              <!--end of module group-->
-            </div>
+    
+  <header id="site_header" class="navgroup header_button" role="banner">
+    <div class="content">
+
+
+      <h3 id="site_headline">
+        <a class="brand" href="/">
+          <img src="img/DeepHire_Logo_Color.svg" width="155" height="34" alt="DeepHire">
+        </a>
+      </h3>
+
+
+      <a href="#" id="nav_toggle"><span class="labelText">Menu</span><span class="messages-notification-unread messages-notification-badge"></span></a>
+
+
+
+      <a class="post_button_mobile" href="/post-a-job" title="Post jobs to multiple job boards">Post Your Profile</a>
+
+
+
+      <nav id="primary_nav">
+
+
+      </nav>
+      <nav id="secondary_nav">
+        <section id="employers_nav" class="nav active button_tab">
+          <h3 class="headline">
+            <a class="headline_nav" href="/post-a-job" title="Post jobs to multiple job boards"><span class="text">Post Your Profile</span></a>
+          </h3>
+        </section>
+
+        <div id="searchTab" class="nav noPop button_tab">
+          <h3 class="headline"><a href="/jobs/search" class="headline_nav"><span class="text">Search Jobs</span></a></h3>
+        </div>
+
+
+
+        <section id="enterprise_nav" class="nav noPop">
+          <h3 class="headline"><a id="enterprise_header" class="headline_nav" href="/enterprise">Enterprise</a></h3>
+        </section>
+
+
+        <section id="tabContact" class="nav has_subnav force_open_nav">
+          <h3 class="headline">
+            <a class="headline_nav" href="/sales">Contact Us</a>
+          </h3>
+          <div class="subnav">
+
+            <a class="chat chatTrigger" href="/sales" title="Click to open Live Chat" style="display:none">Live Chat</a>
+            <a class="phone_number" href="/sales">(330) 931-8770</a>
+            <a class="email" href="/sales">Email Us</a>
           </div>
-        </nav><!-- #site-navigation -->
-      </div>
-    </header><!-- #masthead -->
-  
+        </section>
+
+
+
+        <div id="loginTab" class="nav noPop">
+          <h3 class="headline"><a href="/login" class="headline_nav" rel="nofollow"><span class="text">Sign In</span></a></h3>
+        </div>
+      </nav>
+    </div>
+  </header>
   </div>
 
   <div id="wrapper" class="page_wrapper">
@@ -201,8 +232,7 @@
                 questions to save time and ensure that you see how candidates answer questions, on video. </h3>
             </div>
             <picture class="picture">
-              <img src="img/clear.gif" data-original="img/hiw-post.svg"
-                class="image lazy" width="100%" alt="Post">
+              <img src="img/clear.gif" data-original="img/mascot/Wave Cute@2x.png" class="image lazy" width="100%" alt="Post">
             </picture>
           </div>
         </section>
@@ -217,8 +247,7 @@
                 most interested - automatically engaging them with your interview questions. </h3>
             </div>
             <picture class="picture">
-              <img src="img/clear.gif" data-original="img/hiw-match.svg"
-                class="image lazy" width="100%" alt="Match">
+              <img src="img/clear.gif" data-original="img/mascot/1@2x.png" class="image lazy" width="100%" alt="Match">
             </picture>
           </div>
         </section>
@@ -230,11 +259,11 @@
                 <span class="number">3</span> Receive Great Candidates</h2>
               <h3 class="subheadline">84% of job seekers say that culture fit is their number one priority when choosing a new job. When a candidate
                 is identified as a good fit for your company, you recieve their resume and video profile on your Candidate
-                Dashboard.</h3>
+                Dashboard.
+              </h3>
             </div>
             <picture class="picture">
-              <img src="img/clear.gif" data-original="img/hiw-receive.svg"
-                class="image lazy" width="100%" alt="Receive">
+              <img src="img/clear.gif" data-original="img/mascot/Love Cleaned@2x.png" class="image lazy" width="100%" alt="Receive">
             </picture>
           </div>
         </section>
@@ -248,8 +277,7 @@
                 into your culture and are excited for the first day at work - before you even interview them. </h3>
             </div>
             <picture class="picture">
-              <img src="img/clear.gif" data-original="img/hiw-review.svg"
-                class="image lazy" width="100%" alt="Review">
+              <img src="img/clear.gif" data-original="img/mascot/Standing@2x.png" class="image lazy" width="100%" alt="Review">
             </picture>
           </div>
         </section>
@@ -264,8 +292,7 @@
                 you. </h3>
             </div>
             <picture class="picture">
-              <img src="img/clear.gif" data-original="img/hiw-repeat.svg"
-                class="image lazy" width="100%" alt="Repeat">
+              <img src="img/clear.gif" data-original="img/mascot/Handshake Cleaned@2x.png" class="image lazy" width="100%" alt="Repeat">
             </picture>
           </div>
         </section>
@@ -275,43 +302,43 @@
             <h2 class="headline">Included Features</h2>
 
             <div class="feature">
-              <img src="img/val-prop-tech.svg" class="icon" alt="Icon" />
+              <img src="img/features/powerful-technology.svg" class="icon" alt="Icon" />
               <h4 class="feature_title">Powerful Technology</h4>
               <p class="feature_text">With one click, we show your profile to an audience of job seekers. Paired with your authentic content, our
                 artificial intelligence identifies which candidates would be a good fit.</p>
             </div>
 
             <div class="feature">
-              <img src="img/val-prop-interviews.svg" class="icon" alt="Icon" />
+              <img src="img/features/prescreen-interview.svg" class="icon" alt="Icon" />
               <h4 class="feature_title">Pre-Screen Interview Questions</h4>
               <p class="feature_text">Add pre-screen interview questions and get back video responses, so that you can get a culture-feel for the
                 candidate before you spend time interviewing them.</p>
             </div>
 
             <div class="feature">
-              <img src="img/val-prop-slots.svg" class="icon" alt="Icon" />
+              <img src="img/features/authentic-content.svg" class="icon" alt="Icon" />
               <h4 class="feature_title">Authentic Content Creation</h4>
               <p class="feature_text">Our process ensures that any video content created on our app is authentic and meaningful to your perfect job
                 seeker. </p>
             </div>
 
             <div class="feature">
-              <img src="img/val-prop-social.svg" class="icon" alt="Icon" />
+              <img src="img/features/social.svg" class="icon" alt="Icon" />
               <h4 class="feature_title">Social Network Posting</h4>
               <p class="feature_text">We take your content and post it to our social media in channels that will best help you attract the right
                 candidate. </p>
             </div>
 
             <div class="feature">
-              <img src="img/val-prop-mobile.svg" class="icon" alt="Icon" />
+              <img src="img/features/mobile-friendly.svg" class="icon" alt="Icon" style="height:30"/>
               <h4 class="feature_title">Mobile Friendly Interface</h4>
               <p class="feature_text">DeepHire is designed for mobile so you can post a job, review candidates and more while you’re on the go. </p>
             </div>
 
             <div class="feature">
-              <img src="img/val-prop-cs.svg" class="icon" alt="Icon" />
+              <img src="img/features/customer-support.svg" class="icon" alt="Icon" />
               <h4 class="feature_title">Premium Customer Support</h4>
-              <p class="feature_text">Call us, email, or chat live with our expert who’s happy to help you get the most out of DeepHire.</p>
+              <p class="feature_text">Call us, email, or chat live with our experts who’s happy to help you get the most out of DeepHire.</p>
             </div>
 
           </div>
@@ -320,7 +347,7 @@
           <div class="content">
             <div class="text">
               <h1 class="headline">Get Started with DeepHire Today!</h1>
-              <a href="/post-a-job" class="cta">Post your Profile for FREE</a>
+              <a href="/post-a-job" class="cta">Post Your Profile for FREE</a>
             </div>
           </div>
         </section>
@@ -336,9 +363,9 @@
             <h5 class="group_header">For Job Seekers</h5>
             <ul>
               <li class="item">
-                <a href="/">Search Jobs</a>
+                <a href="/">Find Company</a>
               </li>
-              <li class="item">
+              <!-- <li class="item">
                 <a href="/browse">Browse Jobs</a>
               </li>
               <li class="item">
@@ -357,7 +384,7 @@
               <li class="item">
                 <a href="/contact/create">Create Free Account</a>
               </li>
-
+ -->
 
             </ul>
           </div>
@@ -374,9 +401,9 @@
 
               <!-- <li class="item"><a href="/employer-reviews">DeepHire Reviews</a></li>
            -->
-              <li class="item">
+              <!-- <li class="item">
                 <a href="/plans">Plans</a>
-              </li>
+              </li> -->
 
               <!-- <li class="item"><a id="enterprise_drop_down" href="/enterprise">Enterprise</a></li>
            -->
@@ -398,9 +425,9 @@
               <li class="item">
                 <a href="/about">About Us</a>
               </li>
-              <li class="item">
+              <!-- <li class="item">
                 <a href="/careers">Careers</a>
-              </li>
+              </li> -->
               <li class="item">
                 <a href="/blog">Blog</a>
               </li>
@@ -422,24 +449,24 @@
                   <a href="https://www.facebook.com/DeepHire.io" title="Follow DeepHire on Facebook" class="facebook"></a>
                   <a href="https://twitter.com/DeepHire" title="Follow DeepHire on Twitter" class="twitter"></a>
                   <a href="https://www.linkedin.com/company/DeepHire/" title="Follow DeepHire on LinkedIn" class="linkedin"></a>
-                  <a href="https://www.instagram.com/DeepHire_/" title="Follow DeepHire on Instagram" class="instagram"></a>
+                  <!-- <a href="https://www.instagram.com/DeepHire_/" title="Follow DeepHire on Instagram" class="instagram"></a> -->
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-
+<!-- 
       <nav class="secondary_footer_nav">
-        <!-- <a href="/privacy">Privacy Policy</a>
+        <a href="/privacy">Privacy Policy</a>
     <a href="/terms">Terms of Use</a>
     <a href="/notices">Attribution Notices</a>
     <a href="/corporate-responsibility">Corporate Responsibility</a>
     <span class="legal">DeepHire, Inc. &copy; All Rights Reserved Worldwide</span>
     <!-- TRUSTe cookie button -->
-        <!--<div id="teconsent" class="teconsent"></div> -->
-        <!-- end TRUSTe cookie button -->
-      </nav>
+        <!-- <div id="teconsent" class="teconsent"></div>
+
+      </nav>  -->
     </footer>
   </div>
 
@@ -464,6 +491,7 @@
   <script src="js/_sub-nav-collapsible.js"></script>
 
   <script src="js/_header.js"></script>
+  <!-- <script src="https://www.ziprecruiter.com/zrs/c81de7f2/js/common/_header.js"></script> -->
 
   <script src="js/_header_light.js"></script>
 
@@ -472,12 +500,9 @@
   <script src="js/_footer_light.js"></script>
   <!-- page javascript inlines -->
   <script type="text/javascript">
-    (window.jQuery || window.Zepto || window.$)(".section.split .text").lazyClass({ threshold: -100 });
+       (window.jQuery || window.Zepto || window.$)(".section.split .text").lazyClass({ threshold: -100 });
   </script>
   <!-- page javascript notready -->
-
-
-
 
 </body>
 
